@@ -2,7 +2,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Start from './pages/Start'
 import Login from './pages/Login'
-import Chat from './pages/Start'
+import Chat from './pages/Chat'
 
 
 function App() {
