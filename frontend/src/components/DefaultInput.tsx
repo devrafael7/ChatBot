@@ -9,7 +9,7 @@ type DefaultInputProps = {
 
 const DefaultInput: React.FC<DefaultInputProps> = ({placeholder = "", type="", className=""}) => {
     return (
-        <input className={`flex items-center shadow-md outline-none border-none font-medium rounded-sm ${className}`} placeholder={placeholder} type={type} />
+        <input className={`flex items-center outline-none border-none ${className}`} placeholder={placeholder} type={type} />
     )
 }
 
