@@ -1,7 +1,13 @@
-const Logo = () => {
+import type React from "react";
+
+type LogoProps = {
+    className: string;
+}
+
+const Logo: React.FC<LogoProps> = ( {className = ""} ) => {
     return (
          <div className="flex flex-col justify-center items-center gap-1">
-            <img className="invert w-28 h-28" src="/icons/main_logo.png" alt="" />
+            <img className={`${className}`} src="/icons/main_logo.png" alt="" />
             <h4 className="text-white text-lg font-mono pl-3">CHAT BOT</h4>
         </div>
     )

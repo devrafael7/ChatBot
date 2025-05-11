@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <div className="w-full h-screen flex-col items-center">
             <article className="bg-blue-500 w-full h-4/12 flex justify-center items-center">
-                <Logo/>
+                <Logo className="w-28 h-28 invert"/>
             </article>
             <form className="flex w-full pt-6 pb-9 h-full flex-col items-center px-8 bg-white" action="">
                 <DefaultInput className={` ${isVisible ? "" : "hidden"} w-full py-4 px-4 mb-4`} type="text" placeholder="User"/>

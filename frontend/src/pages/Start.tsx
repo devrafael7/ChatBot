@@ -12,7 +12,7 @@ const Start = () => {
 
   return (
     <div className="w-full min-h-screen flex flex-col justify-between py-32 items-center bg-blue-500 px-12">
-      <Logo />
+      <Logo className="w-28 h-28" />
       <div className="w-full flex flex-col gap-5">
         <DefaultButton
           className={`w-full h-auto py-3 hover:scale-105 ${
