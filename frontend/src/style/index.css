@@ -5,4 +5,5 @@
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  transition: .3s ease;
 }
