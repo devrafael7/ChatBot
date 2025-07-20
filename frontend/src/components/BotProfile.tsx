@@ -6,7 +6,7 @@ const BotProfile = () =>{
                 <img className="invert rounded-full" src="/icons/main_logo.png" alt="" />
             </div>
             <div className="flex flex-col justify-center items-start">   
-                <h5 className="font-semibold text-gray-900 text-lg">Luiz Robot</h5>
+                <h5 className="font-semibold text-gray-900 text-lg">Luna.PY</h5>
                 <p className="text-sm font-medium text-gray-400">Chat Bot</p>
             </div>
         </div>
